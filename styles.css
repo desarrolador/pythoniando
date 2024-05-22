@@ -1,0 +1,262 @@
+ * {
+    margin: 0px;
+    padding: 5px;
+ }
+
+
+ .navbar ul li {
+  display: inline-flex;
+  
+  
+}
+
+.navbar ul li a {
+  font-family:fantasy ;
+  font-size: larger;
+  position: relative;
+  left: 900px;
+  color: beige ;
+  text-decoration: none;
+
+}
+
+.navbar ul li a:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+
+.h1 {
+    font-family: fantasy;
+    text-align: center;
+    color: beige;
+
+}
+
+h1:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+ul li {
+  display: grid;
+  row-gap: row;
+  
+}
+
+ul li a {
+    
+    text-decoration: none;
+    color: beige;
+    font-family: fantasy;
+    text-align: center;
+    font-size: larger;
+     
+}
+
+
+ul li a:hover {
+    cursor: pointer;
+    color: rgb(139, 0, 109);
+}
+
+
+
+body {
+    background-image: url('imagenes/imagen\ de\ python\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.videosdeprueba {
+    display: flex;
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+
+
+.btn { 
+  font-family: fantasy;
+  width: 150px; 
+  height: 50px; 
+  background-color: #3498db; 
+  color: #ffffff; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  display: block;
+  margin: 0 auto; 
+ 
+}
+
+.btn-comprar {
+    font-family: fantasy;
+    font-size: larger;
+   
+
+}
+
+.btn-comprar:hover {
+    cursor: pointer;
+    color: beige;
+}
+
+
+.footer ul {
+    list-style-type:none ;
+     margin: 0;
+     padding: 0;
+    
+}
+
+.footer ul li {
+    display: inline-flex;
+}
+
+
+.footer ul li a {
+    font-family:fantasy ;
+    font-size: larger;
+    position: relative;
+    left: 900px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: beige ;
+}
+
+.footer ul li a:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+@media screen and (max-width:768px){
+    
+
+    
+    .navbar ul {
+             
+           flex-direction: column;
+           
+        }
+
+    .navbar ul li {
+        display: inline-flex;
+    }
+
+    .navbar ul li a {
+        left: 0;
+    }
+     
+
+      .videosdeprueba {
+        flex-direction: column;
+      }
+
+      .btn-comprar{
+        flex-direction: column;
+      }
+
+      .footer{
+        flex-direction: column;
+      }
+
+        .footer ul li {
+           display: inline-flex;
+            
+        }
+
+          .footer ul li a {
+           left: 0;
+
+          }
+      
+    }
+
+
+@media only screen and (min-width:769px) and (max-width:1067px) {
+    
+
+    .navbar ul {
+             
+        flex-direction: column;
+        
+     }
+
+ .navbar ul li {
+     display: inline-flex;
+ }
+
+ .navbar  li a {
+     left: 0;
+ }
+  
+
+   .videosdeprueba {
+     flex-direction: column;
+   }
+
+   .btn-comprar{
+     flex-direction: column;
+   }
+
+   .footer{
+     flex-direction: column;
+   }
+
+     .footer ul li {
+        display: inline-flex;
+         
+     }
+
+       .footer ul li a {
+        left: 0;
+
+       }
+   
+}
+@media screen and (min-width:1068px) {
+    .navbar ul {
+             
+        flex-direction: column;
+        
+     }
+
+ .navbar ul li {
+     display: inline-flex;
+ }
+
+ .navbar ul li a {
+     right: 0;
+ }
+  
+
+   .videosdeprueba {
+     flex-direction: row;
+   }
+
+   .btn-comprar{
+     flex-direction: column;
+   }
+
+   .footer{
+     flex-direction: column;
+   }
+
+     .footer ul li {
+        display: inline-flex;
+         
+     }
+
+       .footer ul li a {
+        right: 0;
+
+       }
+   
+ }
+
+
+
+    
